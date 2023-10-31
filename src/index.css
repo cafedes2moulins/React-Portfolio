@@ -13,8 +13,8 @@
 :root {
     --bg-color: beige;
     --second-bg-color: yellow;
-    --contrast-color: pink;
-    --second-contrast-color: magenta;
+    --contrast-color: #f59b84;
+    --second-contrast-color: #c7310c;
     --text-color: goldenrod;
     --light-color: orange;
 
@@ -48,7 +48,11 @@ body {
     margin: 0 auto;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-weight: 500;
 }
 
@@ -60,12 +64,13 @@ section {
     margin-top: 8rem;
 }
 
-section > h2, section > h5 {
+section>h2,
+section>h5 {
     text-align: center;
     color: var(--text-color);
 }
 
-section > h2 {
+section>h2 {
     color: var(--contrast-color);
     margin-bottom: 3rem;
 }
@@ -80,7 +85,7 @@ a {
 }
 
 a:hover {
-    color: var(--text-color);
+    color: var(--bg-color) !important;
 }
 
 .btn {
@@ -130,7 +135,7 @@ img {
         width: var(--container-width-sm);
     }
 
-    section > h2{
+    section>h2 {
         margin-bottom: 2rem;
     }
 }
