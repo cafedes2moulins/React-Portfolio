@@ -14,7 +14,7 @@
     --bg-color: beige;
     --second-bg-color: yellow;
     --contrast-color: #f59b84;
-    --second-contrast-color: #c7310c;
+    --second-contrast-color: #cc4b2b;
     --text-color: goldenrod;
     --light-color: orange;
 
@@ -100,7 +100,7 @@ a:hover {
 }
 
 .btn:hover {
-    background: var(--text-color);
+    background: var(--second-contrast-color);
     color: var(--color-bg);
     border-color: transparent;
 }
